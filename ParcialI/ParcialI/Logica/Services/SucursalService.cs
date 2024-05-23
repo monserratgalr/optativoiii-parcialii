@@ -17,8 +17,8 @@ namespace ParcialI.Logica.Services
                 return false;
             }
 
-            const string emailPattern = @"^[^\s@]+@[^\s@]+\.[^\s@]+$";
-            Regex regex = new Regex(emailPattern);
+            const string emailPatron = @"^[^\s@]+@[^\s@]+\.[^\s@]+$";
+            Regex regex = new Regex(emailPatron);
             return regex.IsMatch(email);
         }
 
